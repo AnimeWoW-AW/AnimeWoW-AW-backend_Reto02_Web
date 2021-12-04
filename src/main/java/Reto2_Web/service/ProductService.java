@@ -64,6 +64,9 @@ public class ProductService {
                 if (product.getCategory() != null) {
                     dbProduct.get().setCategory(product.getCategory());
                 }
+                if (product.getPresentation() != null) {
+                    dbProduct.get().setPresentation(product.getPresentation());
+                }
                 if (product.getDescription() != null) {
                     dbProduct.get().setDescription(product.getDescription());
                 }
