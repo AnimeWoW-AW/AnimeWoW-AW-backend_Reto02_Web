@@ -6,7 +6,6 @@ package Reto2_Web.controller;
 
 import Reto2_Web.model.Product;
 import Reto2_Web.service.ProductService;
-
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;

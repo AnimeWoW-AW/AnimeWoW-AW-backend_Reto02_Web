@@ -26,9 +26,6 @@ import org.springframework.web.bind.annotation.*;
 public class UserController {
     
     @Autowired
-    /**
-     *
-     */
     private UserService userService;
 
     /**
